@@ -1,93 +1,68 @@
-🏥 SmartCare HMS – MediSense.AI
-Full-Stack Healthcare Management & Monitoring System
+# 🏥 MediSense.AI  
+### SmartCare HMS – Full-Stack Healthcare Management & Monitoring System  
 
-Built with React · Java · Spring Boot · MySQL
+**React · Java · Spring Boot · MySQL**
 
-📌 Overview
+---
 
-SmartCare HMS (MediSense.AI) is a full-stack healthcare web application designed to assist hospitals in managing patients, monitoring live vitals, booking appointments, and interacting through a health chatbot interface.
+## 📌 Overview
 
-The system demonstrates:
+**MediSense.AI (SmartCare HMS)** is a full-stack healthcare web application designed to assist hospitals in managing patients, monitoring live vitals, booking appointments, and interacting through a healthcare chatbot interface.
 
-Real-time dashboard rendering
+The project demonstrates modern frontend design, REST API development, and relational database integration using a layered backend architecture.
 
-REST API integration
+---
 
-Relational database management
+## 🚀 Key Features
 
-Clean component-based frontend architecture
+### 🏠 Smart Landing Page
+- Modern and responsive UI
+- Centralized navigation to all modules
+- Clean healthcare-focused design
 
-🚀 Key Features
-🏠 Smart Landing Page
+### 📊 Live Patient Monitoring Dashboard
+- Real-time vitals display
+- Auto-refresh mechanism
+- Structured patient card layout
 
-Modern and responsive UI
+**Vitals Monitored:**
+- ❤️ Heart Rate (BPM)
+- 🫁 Oxygen Levels
+- 🩺 Blood Pressure
 
-Centralized navigation to all modules
+### 📅 Appointment Booking System
+- Date-based scheduling
+- Time-slot selection interface
+- Appointment confirmation workflow
+- Backend-integrated data storage
 
-Clean healthcare-focused design
+### 💬 Health Chatbot Interface
+- Embedded interactive chatbot UI
+- Accepts patient vitals input
+- Simulated AI-style interaction
+- User-friendly conversational design
 
-📊 Live Patient Monitoring Dashboard
+---
 
-Real-time vitals display
+## 🛠 Tech Stack
 
-Auto-refresh mechanism
+### 🔹 Frontend
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-Patient card-based UI layout
+### 🔹 Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- Hibernate ORM
+- RESTful API Architecture
 
-Vitals Monitored:
+### 🔹 Database
+- MySQL
 
-❤️ Heart Rate (BPM)
-
-🫁 Oxygen Levels
-
-🩺 Blood Pressure
-
-📅 Appointment Booking System
-
-Date-based scheduling
-
-Time-slot selection interface
-
-Confirmation workflow
-
-Backend-integrated storage
-
-💬 Health Chatbot Interface
-
-Embedded interactive chatbot
-
-Accepts patient vitals input
-
-Simulated AI-style interaction
-
-Clean, user-friendly design
-
-🛠 Tech Stack
-🔹 Frontend
-
-React
-
-JavaScript (ES6+)
-
-HTML5
-
-CSS3
-
-🔹 Backend
-
-Java
-
-Spring Boot
-
-Spring Data JPA
-
-Hibernate ORM
-
-RESTful API Architecture
-
-🔹 Database
-
-MySQL
+---
 
 🏗 System Architecture
 React Frontend
