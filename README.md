@@ -1,58 +1,66 @@
-# 🏥 SmartCare HMS – MediSense.AI
+🏥 SmartCare HMS – MediSense.AI
 Full-Stack Healthcare Management & Monitoring System
 
-Built with React, Spring Boot, and MySQL
+Built with React · Java · Spring Boot · MySQL
 
 📌 Overview
 
-MediSense.AI is a full-stack healthcare web application designed to assist hospitals in managing patients, monitoring live vitals, booking appointments, and interacting through a health chatbot interface.
+SmartCare HMS (MediSense.AI) is a full-stack healthcare web application designed to assist hospitals in managing patients, monitoring live vitals, booking appointments, and interacting through a health chatbot interface.
 
-The system demonstrates real-time dashboard updates, REST API integration, database management, and modern frontend design.
+The system demonstrates:
+
+Real-time dashboard rendering
+
+REST API integration
+
+Relational database management
+
+Clean component-based frontend architecture
 
 🚀 Key Features
 🏠 Smart Landing Page
 
-Clean, modern UI
+Modern and responsive UI
 
-Centralized access to hospital features
+Centralized navigation to all modules
 
-Interactive navigation
+Clean healthcare-focused design
 
 📊 Live Patient Monitoring Dashboard
 
-Displays real-time patient vitals
+Real-time vitals display
 
 Auto-refresh mechanism
 
-Shows:
+Patient card-based UI layout
 
-Heart Rate (BPM)
+Vitals Monitored:
 
-Oxygen Levels
+❤️ Heart Rate (BPM)
 
-Blood Pressure
+🫁 Oxygen Levels
 
-Structured patient cards for quick monitoring
+🩺 Blood Pressure
 
 📅 Appointment Booking System
 
-Date-based appointment selection
+Date-based scheduling
 
-Time-slot booking interface
+Time-slot selection interface
 
 Confirmation workflow
 
-Backend-integrated appointment storage
+Backend-integrated storage
 
 💬 Health Chatbot Interface
 
-Embedded chatbot UI
+Embedded interactive chatbot
 
 Accepts patient vitals input
 
-Simulates AI-based health interaction
+Simulated AI-style interaction
 
-Interactive and user-friendly design
+Clean, user-friendly design
 
 🛠 Tech Stack
 🔹 Frontend
@@ -67,7 +75,7 @@ CSS3
 
 🔹 Backend
 
-Java 
+Java
 
 Spring Boot
 
@@ -75,7 +83,7 @@ Spring Data JPA
 
 Hibernate ORM
 
-RESTful APIs
+RESTful API Architecture
 
 🔹 Database
 
@@ -83,10 +91,10 @@ MySQL
 
 🏗 System Architecture
 React Frontend
-        ↓ (HTTP / JSON)
+        ↓  (HTTP / JSON)
 Spring Boot REST Controllers
         ↓
-JPA Repository Layer
+JPA Repository Layer (Hibernate)
         ↓
 MySQL Database
 
