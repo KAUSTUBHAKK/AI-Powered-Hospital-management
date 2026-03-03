@@ -1,15 +1,58 @@
-🏥 SmartCare HMS
-Full-Stack Hospital Management System
+# 🏥 SmartCare HMS – MediSense.AI
+Full-Stack Healthcare Management & Monitoring System
 
-Built using React, Spring Boot, and MySQL
+Built with React, Spring Boot, and MySQL
 
 📌 Overview
 
-SmartCare HMS is a full-stack web application designed to manage hospital workflows including patient records and appointments.
+MediSense.AI is a full-stack healthcare web application designed to assist hospitals in managing patients, monitoring live vitals, booking appointments, and interacting through a health chatbot interface.
 
-The system demonstrates REST API development, database integration using JPA/Hibernate, and frontend-backend communication using JSON over HTTP.
+The system demonstrates real-time dashboard updates, REST API integration, database management, and modern frontend design.
 
-This project highlights core full-stack development skills aligned with Java-based backend development.
+🚀 Key Features
+🏠 Smart Landing Page
+
+Clean, modern UI
+
+Centralized access to hospital features
+
+Interactive navigation
+
+📊 Live Patient Monitoring Dashboard
+
+Displays real-time patient vitals
+
+Auto-refresh mechanism
+
+Shows:
+
+Heart Rate (BPM)
+
+Oxygen Levels
+
+Blood Pressure
+
+Structured patient cards for quick monitoring
+
+📅 Appointment Booking System
+
+Date-based appointment selection
+
+Time-slot booking interface
+
+Confirmation workflow
+
+Backend-integrated appointment storage
+
+💬 Health Chatbot Interface
+
+Embedded chatbot UI
+
+Accepts patient vitals input
+
+Simulates AI-based health interaction
+
+Interactive and user-friendly design
 
 🛠 Tech Stack
 🔹 Frontend
@@ -24,6 +67,8 @@ CSS3
 
 🔹 Backend
 
+Java 
+
 Spring Boot
 
 Spring Data JPA
@@ -36,78 +81,26 @@ RESTful APIs
 
 MySQL
 
-✨ Key Features
-
-Create, Read, Update, Delete (CRUD) operations for Patients
-
-Appointment Management
-
-RESTful API architecture
-
-JSON-based client-server communication
-
-CORS configuration for cross-origin requests
-
-Layered backend structure (Controller → Repository → Database)
-
 🏗 System Architecture
-React (Frontend)
-        ↓ HTTP Requests (JSON)
-Spring Boot REST Controller
+React Frontend
+        ↓ (HTTP / JSON)
+Spring Boot REST Controllers
         ↓
-JPA Repository (Hibernate ORM)
+JPA Repository Layer
         ↓
 MySQL Database
-🚀 How to Run Locally
-🔹 Backend Setup
-cd smartcare-hms-backend
-mvn spring-boot:run
 
-Backend runs at:
+## 📸 Application Screenshots
 
-http://localhost:8080
-🔹 Frontend Setup
-cd smartcare-hms-frontend
-npm install
-npm start
+### 🏠 Home Page
+![Home](screenshots/HomePage.png)
 
-Frontend runs at:
+### 📊 Live Patient Monitoring
+![Live Monitoring](screenshots/LivePatientMonitoringInterface.png)
 
-http://localhost:3000
-📡 Sample API Endpoints
+### 📅 Appointment Booking
+![Appointment](screenshots/AppointmentBookingInterface.png)
 
-GET /api/v1/patients
+### 💬 Health Chatbot
+![Chatbot](screenshots/Chatbot.png)
 
-POST /api/v1/patients
-
-PUT /api/v1/patients/{id}
-
-DELETE /api/v1/patients/{id}
-
-🎯 Learning Highlights
-
-Through this project, I strengthened my understanding of:
-
-REST API design principles
-
-Spring Boot application structure
-
-JPA & Hibernate ORM mapping
-
-React component-based architecture
-
-Client-server interaction using JSON
-
-Relational database schema design
-
-📚 Future Improvements
-
-Add authentication using Spring Security & JWT
-
-Implement role-based access control
-
-Add pagination and filtering
-
-Deploy backend to AWS EC2
-
-Deploy frontend to cloud hosting
