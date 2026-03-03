@@ -93,14 +93,13 @@ MySQL Database
 ## 📸 Application Screenshots
 
 ### 🏠 Home Page
-![HomePage](screenshots/HomePage.png)
+![Home](screenshots/home.png)
 
 ### 📊 Live Patient Monitoring
-![LivePatientMonitoringInterface](screenshots/LivePatientMonitoringInterface.png)
+![Live Monitoring](screenshots/live-monitoring.png)
 
 ### 📅 Appointment Booking
-![AppointmentBookingInterface](screenshots/AppointmentBookingInterface.png)
+![Appointment](screenshots/appointment.png)
 
 ### 💬 Health Chatbot
-![Chatbot](screenshots/Chatbot.png)
-
+![Chatbot](screenshots/chatbot.png)
